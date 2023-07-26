@@ -1,0 +1,41 @@
+@import url("fonts.css");
+@import url("header.css");
+@import url("footer.css");
+
+* {
+    font-family: Quicksand;
+    color: #2C0703;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EBD4CB;
+}
+.material-symbols-outlined {
+    color: #2C0703;
+    font-size: 1.5rem;
+}
+
+.flexRoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.flexCentre {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #890620;
+    font-size: 8rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #890620;
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
